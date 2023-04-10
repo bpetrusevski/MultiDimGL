@@ -1,0 +1,36 @@
+version: '3.8'
+# run: docker compose up
+#
+# Use  http://localhost:15672/ to open management console 
+# 
+name: "saga-choreography"
+
+services:
+  rabbitmq:
+    container_name: "rabbitmq-saga"
+    image: rabbitmq:3-management-alpine
+    ports:
+        # AMQP protocol port
+        - '5672:5672'
+        # HTTP management UI
+        - '15672:15672'
+    volumes:
+        - ./rabbitmq/data/:/var/lib/rabbitmq/mnesia/
+    environment:
+        - RABBITMQ_DEFAULT_USER=test
+        - RABBITMQ_DEFAULT_PASS=Password123#
+    
+  mssql-srvr:
+    container_name: "mssql-saga"
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+      - 1433:1433
+    volumes:
+      - ./mssql/data:/var/lib/mssqlql/data
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Password123#
+
+networks:
+  default:
+    name: "sagachoreography_network"

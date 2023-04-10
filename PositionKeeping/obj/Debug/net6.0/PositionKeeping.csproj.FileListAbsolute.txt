@@ -1,0 +1,7 @@
+D:\MyApp\sgt\SagaChoreography\PositionKeeping\obj\Debug\net6.0\PositionKeeping.csproj.AssemblyReference.cache
+D:\MyApp\sgt\SagaChoreography\PositionKeeping\obj\Debug\net6.0\PositionKeeping.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyApp\sgt\SagaChoreography\PositionKeeping\obj\Debug\net6.0\PositionKeeping.AssemblyInfoInputs.cache
+D:\MyApp\sgt\SagaChoreography\PositionKeeping\obj\Debug\net6.0\PositionKeeping.AssemblyInfo.cs
+D:\MyApp\sgt\SagaChoreography\PositionKeeping\obj\Debug\net6.0\PositionKeeping.csproj.CoreCompileInputs.cache
+D:\MyApp\sgt\SagaChoreography\PositionKeeping\obj\Debug\net6.0\PositionKeeping.MvcApplicationPartsAssemblyInfo.cs
+D:\MyApp\sgt\SagaChoreography\PositionKeeping\obj\Debug\net6.0\PositionKeeping.MvcApplicationPartsAssemblyInfo.cache

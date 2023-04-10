@@ -1,0 +1,121 @@
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\bin\Debug\net6.0\appsettings.json
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\bin\Debug\net6.0\Accounts.exe
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\bin\Debug\net6.0\Accounts.deps.json
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\bin\Debug\net6.0\Accounts.runtimeconfig.json
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\bin\Debug\net6.0\Accounts.dll
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\bin\Debug\net6.0\Accounts.pdb
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.csproj.AssemblyReference.cache
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.AssemblyInfoInputs.cache
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.AssemblyInfo.cs
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.csproj.CoreCompileInputs.cache
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\staticwebassets\msbuild.Accounts.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\staticwebassets\msbuild.build.Accounts.props
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Accounts.props
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Accounts.props
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\scopedcss\bundle\Accounts.styles.css
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.csproj.CopyComplete
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.dll
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\refint\Accounts.dll
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.pdb
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.genruntimeconfig.cache
+C:\Users\bogdan\Documents\Visual Studio 2022\SagaChoreography\Accounts\obj\Debug\net6.0\ref\Accounts.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\appsettings.Development.json
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\appsettings.json
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Accounts.exe
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Accounts.deps.json
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Accounts.runtimeconfig.json
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Accounts.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Accounts.pdb
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.csproj.AssemblyReference.cache
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.AssemblyInfoInputs.cache
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.AssemblyInfo.cs
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.csproj.CoreCompileInputs.cache
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.MvcApplicationPartsAssemblyInfo.cs
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.MvcApplicationPartsAssemblyInfo.cache
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\staticwebassets\msbuild.Accounts.Microsoft.AspNetCore.StaticWebAssets.props
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\staticwebassets\msbuild.build.Accounts.props
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Accounts.props
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Accounts.props
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\staticwebassets.pack.json
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\staticwebassets.build.json
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\staticwebassets.development.json
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\scopedcss\bundle\Accounts.styles.css
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.csproj.CopyComplete
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\refint\Accounts.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.pdb
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\Accounts.genruntimeconfig.cache
+D:\MyApp\sgt\SagaChoreography\Accounts\obj\Debug\net6.0\ref\Accounts.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\RabbitMQ.Client.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Humanizer.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\System.CodeDom.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\System.Text.Json.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Azure.Core.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Azure.Identity.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\System.Memory.Data.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\MyApp\sgt\SagaChoreography\Accounts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
