@@ -900,11 +900,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyApp\\sgt\\SagaChoreography\\PaymantInitiation\\PaymantInitiation.csproj",
+      "projectUniqueName": "D:\\MyApp\\sgt\\MultiDimGL\\PaymantInitiation\\PaymantInitiation.csproj",
       "projectName": "PaymantInitiation",
-      "projectPath": "D:\\MyApp\\sgt\\SagaChoreography\\PaymantInitiation\\PaymantInitiation.csproj",
+      "projectPath": "D:\\MyApp\\sgt\\MultiDimGL\\PaymantInitiation\\PaymantInitiation.csproj",
       "packagesPath": "C:\\Users\\bogdan\\.nuget\\packages\\",
-      "outputPath": "D:\\MyApp\\sgt\\SagaChoreography\\PaymantInitiation\\obj\\",
+      "outputPath": "D:\\MyApp\\sgt\\MultiDimGL\\PaymantInitiation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bogdan\\AppData\\Roaming\\NuGet\\NuGet.Config",

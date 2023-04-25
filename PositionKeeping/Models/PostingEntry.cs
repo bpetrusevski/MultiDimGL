@@ -4,15 +4,13 @@ using System.ComponentModel.DataAnnotations;
 namespace PositionKeeping.Models
 { 
 
-    [Table("PostingEntries")]
     public class PostingEntry
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long PostingId { get; set; }
 
         [Required]
-        public AccountUnit AccountId { get; set; }
+        public AccountUnit AccountUnit { get; set; }
 
         [Required]
         public DebitCreditFlag DC { get; set; }

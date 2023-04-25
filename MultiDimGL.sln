@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymantInitiation", "Payman
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PositionKeeping", "PositionKeeping\PositionKeeping.csproj", "{4205E1BB-8FF9-4D9B-9D99-1BB3DB244D03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{8F97C0C6-850C-4CEA-90C5-A6D003DC35CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4205E1BB-8FF9-4D9B-9D99-1BB3DB244D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4205E1BB-8FF9-4D9B-9D99-1BB3DB244D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4205E1BB-8FF9-4D9B-9D99-1BB3DB244D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F97C0C6-850C-4CEA-90C5-A6D003DC35CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F97C0C6-850C-4CEA-90C5-A6D003DC35CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F97C0C6-850C-4CEA-90C5-A6D003DC35CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F97C0C6-850C-4CEA-90C5-A6D003DC35CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

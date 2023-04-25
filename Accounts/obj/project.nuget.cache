@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WAe7bA5cbf7Udl/seIt73d3lxcrJfKVKwIMT9BidGhqxWwJmF5/JDV8uClWHkQ/Qrv96g9q/edHspxEkghNAFg==",
+  "dgSpecHash": "b86bctRrq03qKUTQPTwPvHx5yqd5vSisvM4GpvHqCbvBp6WMsublLGqFHzjKXOrOzCOJiICySvLeeQXon4QrZQ==",
   "success": true,
-  "projectFilePath": "D:\\MyApp\\sgt\\SagaChoreography\\Accounts\\Accounts.csproj",
+  "projectFilePath": "D:\\MyApp\\sgt\\MultiDimGL\\Accounts\\Accounts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bogdan\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\bogdan\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -23,6 +23,7 @@
     "C:\\Users\\bogdan\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\bogdan\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\bogdan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\bogdan\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.4\\microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",
     "C:\\Users\\bogdan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\bogdan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\bogdan\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",

@@ -1,10 +1,11 @@
-﻿using Accounts.RabbitMQ;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using Accounts.Database;
 using Accounts.Models.Commands;
 using Microsoft.Extensions.Logging;
 using System.Threading;
 using Accounts.Messages;
+using Infrastructure.RabbitMQ;
 
 namespace Accounts.Controllers
 {
@@ -26,7 +27,7 @@ namespace Accounts.Controllers
         [HttpPost(Name = "create-account")]
         public async Task<IActionResult> CreateAccount([FromBody]CreateAccountCommandBody newAccount)
         {
-            Account acc = new Account();
+            AccountArrangement acc = new CurrentAccount();
             Random rgen = new Random();
             
             acc.DateCreated = DateTime.UtcNow;
@@ -44,11 +45,11 @@ namespace Accounts.Controllers
         }
 
         // TO DO, implement outbox pattern
-        private async Task SaveChangesAndPublish<TMessage>(TMessage @messsage, string routingKey, CancellationToken cancellationToken) where TMessage : notnull
+        private async Task SaveChangesAndPublish(object @messsage, string routingKey, CancellationToken cancellationToken)
         {
             await _dbContext.SaveChangesAsync(cancellationToken);
 
-            _messagePublisher.SendMessage<TMessage>(@messsage, routingKey);
+            _messagePublisher.SendMessage(@messsage, routingKey);
         }
     }
 }

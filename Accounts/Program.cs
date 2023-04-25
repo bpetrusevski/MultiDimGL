@@ -1,6 +1,6 @@
 using Accounts;
 using Accounts.Database;
-using Accounts.RabbitMQ;
+using Infrastructure.RabbitMQ;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
