@@ -3,7 +3,7 @@ version: '3.8'
 #
 # Use  http://localhost:15672/ to open management console 
 # 
-name: "saga-choreography"
+name: "multidim-gl-test"
 
 services:
 
@@ -34,4 +34,4 @@ services:
 
 networks:
   default:
-    name: "sagachoreography_network"
+    name: "multidimgl"

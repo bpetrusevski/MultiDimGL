@@ -23,7 +23,7 @@
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
       "publishAllPorts": true,
-      "DockerfileRunArguments": "--network=sagachoreography_network" 
+      "DockerfileRunArguments": "--network=multidimgl"
     }
   },
   "$schema": "https://json.schemastore.org/launchsettings.json",
