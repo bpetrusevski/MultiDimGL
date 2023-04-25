@@ -5,4 +5,8 @@
         string SchemaCode,
         string SchemaName
     );
+
+    public record PostingEntryAdded(
+        long AccountingUnitId
+        );
 }

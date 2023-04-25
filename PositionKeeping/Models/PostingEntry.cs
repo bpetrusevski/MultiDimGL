@@ -18,8 +18,7 @@ namespace PositionKeeping.Models
         [Required]
         public decimal Amount { get; set; }
 
-        [MaxLength(10)]
-        public int TransactionType { get; set; }
+        public ClassificationValue<TransactionType> TransactionType { get; set; }
 
         public DateTime CreationDate { get; set; }
         public DateTime ValueDate { get; set; }

@@ -23,7 +23,7 @@ namespace PositionKeeping.Controllers
             _messageProducer = messageProducer;
         }
 
-        [HttpGet(Name = "ClassificationSchemas")]
+        [HttpGet("ClassificationSchema")]
         public async Task<ActionResult> GetClassificationSchemas()
         {
             try
@@ -36,7 +36,7 @@ namespace PositionKeeping.Controllers
             }
         }
 
-        [HttpPost(Name = "ClassificationSchema")]
+        [HttpPost("ClassificationSchema")]
         public async Task<IActionResult> PostClassificationSchema([FromBody] ClassificationSchema schema)
         {
             try
@@ -60,9 +60,10 @@ namespace PositionKeeping.Controllers
         }
 
 
-        [HttpPost(Name = "AccountUnit")]
+        [HttpPost("AccountUnit")]
         public async Task<IActionResult> CreateAccountUnit([FromBody] AccountUnit NewAccountUnitCommand)
         {
+            return StatusCode(StatusCodes.Status500InternalServerError, "Not implmented");
 
         }
 
