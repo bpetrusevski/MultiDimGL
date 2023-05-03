@@ -33,7 +33,7 @@ namespace PositionKeeping.Controllers
         {
             try
             {
-                var res = _db.Accounts.AsNoTracking().ToList();
+                var res = _db.GLAccounts.AsNoTracking().ToList();
                 return Ok(res);
             }
             catch (Exception ex)
@@ -48,11 +48,11 @@ namespace PositionKeeping.Controllers
             try
             {
                 var acct = new GlAccount(); 
-                var record = await _db.Accounts.AddAsync(acct);
+                var record = await _db.GLAccounts.AddAsync(acct);
 
                 await _db.SaveChangesAsync();
 
-                return Ok(record.Entity.Account);
+                return Ok(record.Entity.ID);
             }
             catch (Exception ex)
             {

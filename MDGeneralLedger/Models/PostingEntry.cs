@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MDGeneralLedger.Models
 {
@@ -7,7 +8,8 @@ namespace MDGeneralLedger.Models
 
         [Key]
         public long Id { get; set; }
-        public GlAccount GLAccount { get; set; }
+
+        public GlAccount GlAccount { get; set; }
         public decimal Debit { get; set; }
         public decimal Credit { get; set; }
         public decimal FDebit { get; set; }

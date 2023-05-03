@@ -24,5 +24,6 @@ namespace MDGeneralLedger.Models
     public class Product : ClassificationSchema { }
     public class Residency : ClassificationSchema { }
     public class Tenure : ClassificationSchema { }
+    public class SubAccount : ClassificationSchema { }
 
 }

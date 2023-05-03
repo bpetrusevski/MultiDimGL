@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MDGeneralLedger.Migrations
 {
     [DbContext(typeof(GeneralLedgerDB))]
-    [Migration("20230503114303_initial")]
+    [Migration("20230503135201_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -46,6 +46,43 @@ namespace MDGeneralLedger.Migrations
                     b.ToTable("AcctDim");
 
                     b.HasDiscriminator<string>("SchemaId");
+
+                    b.HasData(
+                        new
+                        {
+                            SchemaId = "Currency",
+                            Name = "Currencies"
+                        },
+                        new
+                        {
+                            SchemaId = "Residency",
+                            Name = "Residencies"
+                        },
+                        new
+                        {
+                            SchemaId = "OU",
+                            Name = "OUs"
+                        },
+                        new
+                        {
+                            SchemaId = "Tenure",
+                            Name = "Tenures"
+                        },
+                        new
+                        {
+                            SchemaId = "Category",
+                            Name = "Accounting Categories"
+                        },
+                        new
+                        {
+                            SchemaId = "Product",
+                            Name = "Products"
+                        },
+                        new
+                        {
+                            SchemaId = "SubAccount",
+                            Name = "SubAccounts"
+                        });
                 });
 
             modelBuilder.Entity("MDGeneralLedger.Models.ClassificationValue", b =>
@@ -76,12 +113,41 @@ namespace MDGeneralLedger.Migrations
                     b.HasDiscriminator<string>("SchemaId").HasValue("ClassificationValue");
 
                     b.UseTphMappingStrategy();
+
+                    b.HasData(
+                        new
+                        {
+                            ID = "978",
+                            Name = "EUR",
+                            SchemaId = "Currency"
+                        },
+                        new
+                        {
+                            ID = "807",
+                            Name = "MKD",
+                            SchemaId = "Currency"
+                        },
+                        new
+                        {
+                            ID = "840",
+                            Name = "USD",
+                            SchemaId = "Currency"
+                        },
+                        new
+                        {
+                            ID = "756",
+                            Name = "CHF",
+                            SchemaId = "Currency"
+                        });
                 });
 
             modelBuilder.Entity("MDGeneralLedger.Models.GlAccount", b =>
                 {
-                    b.Property<string>("Account")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("CategoryId")
                         .HasColumnType("varchar(10)");
@@ -91,7 +157,8 @@ namespace MDGeneralLedger.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("OUId")
                         .HasColumnType("varchar(10)");
@@ -102,10 +169,13 @@ namespace MDGeneralLedger.Migrations
                     b.Property<string>("ResidencyId")
                         .HasColumnType("varchar(10)");
 
+                    b.Property<string>("SubAccountId")
+                        .HasColumnType("varchar(10)");
+
                     b.Property<string>("TenureId")
                         .HasColumnType("varchar(10)");
 
-                    b.HasKey("Account");
+                    b.HasKey("ID");
 
                     b.HasIndex("CategoryId");
 
@@ -117,9 +187,11 @@ namespace MDGeneralLedger.Migrations
 
                     b.HasIndex("ResidencyId");
 
+                    b.HasIndex("SubAccountId");
+
                     b.HasIndex("TenureId");
 
-                    b.ToTable("Accounts");
+                    b.ToTable("GLAccounts");
                 });
 
             modelBuilder.Entity("MDGeneralLedger.Models.PostingEntry", b =>
@@ -153,9 +225,8 @@ namespace MDGeneralLedger.Migrations
                         .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<string>("GLAccountAccount")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("GlAccountID")
+                        .HasColumnType("int");
 
                     b.Property<string>("JournalID")
                         .IsRequired()
@@ -166,7 +237,7 @@ namespace MDGeneralLedger.Migrations
 
                     b.HasIndex("CurrencyID");
 
-                    b.HasIndex("GLAccountAccount");
+                    b.HasIndex("GlAccountID");
 
                     b.ToTable("PostingEntry");
                 });
@@ -204,6 +275,13 @@ namespace MDGeneralLedger.Migrations
                     b.HasBaseType("MDGeneralLedger.Models.ClassificationValue");
 
                     b.HasDiscriminator().HasValue("ClassificationValue<Residency>");
+                });
+
+            modelBuilder.Entity("MDGeneralLedger.Models.ClassificationValue<MDGeneralLedger.Models.SubAccount>", b =>
+                {
+                    b.HasBaseType("MDGeneralLedger.Models.ClassificationValue");
+
+                    b.HasDiscriminator().HasValue("ClassificationValue<SubAccount>");
                 });
 
             modelBuilder.Entity("MDGeneralLedger.Models.ClassificationValue<MDGeneralLedger.Models.Tenure>", b =>
@@ -261,6 +339,11 @@ namespace MDGeneralLedger.Migrations
                         .HasForeignKey("ResidencyId")
                         .OnDelete(DeleteBehavior.Restrict);
 
+                    b.HasOne("MDGeneralLedger.Models.ClassificationValue<MDGeneralLedger.Models.SubAccount>", "SubAccount")
+                        .WithMany()
+                        .HasForeignKey("SubAccountId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.HasOne("MDGeneralLedger.Models.ClassificationValue<MDGeneralLedger.Models.Tenure>", "Tenure")
                         .WithMany()
                         .HasForeignKey("TenureId")
@@ -276,6 +359,8 @@ namespace MDGeneralLedger.Migrations
 
                     b.Navigation("Residency");
 
+                    b.Navigation("SubAccount");
+
                     b.Navigation("Tenure");
                 });
 
@@ -287,15 +372,15 @@ namespace MDGeneralLedger.Migrations
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.HasOne("MDGeneralLedger.Models.GlAccount", "GLAccount")
+                    b.HasOne("MDGeneralLedger.Models.GlAccount", "GlAccount")
                         .WithMany()
-                        .HasForeignKey("GLAccountAccount")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasForeignKey("GlAccountID")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Currency");
 
-                    b.Navigation("GLAccount");
+                    b.Navigation("GlAccount");
                 });
 #pragma warning restore 612, 618
         }

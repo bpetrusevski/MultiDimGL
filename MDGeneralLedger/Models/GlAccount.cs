@@ -11,7 +11,7 @@ namespace MDGeneralLedger.Models
             = new Dictionary<string, object>();
 
         [Key]
-        public string Account { get; set; }
+        public int ID { get; set; }
 
         [Required]
         public string Name { get; set; }
@@ -24,7 +24,8 @@ namespace MDGeneralLedger.Models
         public ClassificationValue<Product> Product { get; set; }
         public ClassificationValue<Residency> Residency { get; set; }
         public ClassificationValue<Tenure> Tenure { get; set; }
-
+        public ClassificationValue<SubAccount> SubAccount { get; set; }
+        
 
         public object this[string key]
         {
