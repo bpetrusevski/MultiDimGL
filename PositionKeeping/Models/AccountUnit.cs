@@ -19,7 +19,7 @@ namespace PositionKeeping.Models
         public List<AccountUnit> Offsets { get; set; } 
 
         //optional, AU may not be part of financial accounting 
-        public GLAccount GL { get; set; }
+        //public GLAccount GL { get; set; }
 
         // additional attributes
         public ClassificationValue<OrganizationUnit> OU { get; set; }

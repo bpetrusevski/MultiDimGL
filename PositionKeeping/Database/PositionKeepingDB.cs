@@ -20,7 +20,6 @@ namespace PositionKeeping.Database
         public DbSet<PostingEntry> PostingEntries { get; set; }
         public DbSet<AccountUnit> AccountUnits { get; set; }
         public DbSet<AccountingUnitType> AccountingUnitTypes { get; set; }
-        public DbSet<GLAccount> ChartOfAccounts { get; set; }
         public DbSet<ClassificationSchema> ClassificationSchemas { get; set; }
         public DbSet<ClassificationValue<ClassificationSchema>> ClassificationValues { get; set; }
 
@@ -70,11 +69,6 @@ namespace PositionKeeping.Database
             //modelBuilder.Entity<ClassificationValue<ClassificationSchema>>()
             //    .Property(e => e.).HasMaxLength(100);
 
-            modelBuilder.Entity<GLAccount>()
-                .Property(e => e.AccountNumber).HasColumnType("VARCHAR").HasMaxLength(15);
-
-            modelBuilder.Entity<GLAccount>()
-                .Property(e => e.Name).HasMaxLength(100);
 
             modelBuilder.Entity<PostingEntry>()
                 .Property(e => e.PostingId).ValueGeneratedOnAdd();
